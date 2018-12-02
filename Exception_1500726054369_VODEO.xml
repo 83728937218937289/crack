@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-16"?>
+<UnhandledError xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Message>Requested value 'OPTIONS_GAMEMODE_13' was not found.</Message>
+  <StackTrace>   at System.Enum.EnumResult.SetFailure(ParseFailureKind failure, String failureMessageID, Object failureMessageFormatArgument)
+   at System.Enum.TryParseEnum(Type enumType, String value, Boolean ignoreCase, EnumResult&amp; parseResult)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at RoboCritters.Language.getNumericalEnumSet(String name, Int32 count) in C:\Users\Richard\Documents\GitRepos\Mono_Shocko\ShellshockSkirmish\ShellshockSkirmish\Modules\Language.cs:line 48
+   at RoboCritters.Menu.MenuFactory.createGameOptionMenu(Boolean isNetworkMenu) in C:\Users\Richard\Documents\GitRepos\Mono_Shocko\ShellshockSkirmish\ShellshockSkirmish\Menu\MenuFactory.cs:line 36
+   at RoboCritters.Menu.MenuFactory.GetMenuSet(MenuGroup group) in C:\Users\Richard\Documents\GitRepos\Mono_Shocko\ShellshockSkirmish\ShellshockSkirmish\Menu\MenuFactory.cs:line 25
+   at RoboCritters.Game1.Initialize() in C:\Users\Richard\Documents\GitRepos\Mono_Shocko\ShellshockSkirmish\ShellshockSkirmish\Game1.cs:line 1197
+   at Microsoft.Xna.Framework.Game.DoInitialize()
+   at Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior)
+   at Microsoft.Xna.Framework.Game.Run()
+   at RoboCritters.Program.Main() in C:\Users\Richard\Documents\GitRepos\Mono_Shocko\ShellshockSkirmish\ShellshockSkirmish\Program.cs:line 18
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()</StackTrace>
+</UnhandledError>

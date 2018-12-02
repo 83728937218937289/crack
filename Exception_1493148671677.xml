@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<UnhandledError xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Message>This is a test exception to see if we get line number..</Message>
+  <StackTrace>   at RoboCritters.Game1..ctor() in C:\Users\Richard\Documents\GitRepos\Mono_Shocko\ShellshockSkirmish\ShellshockSkirmish\Game1.cs:line 731
+   at RoboCritters.Program.Main() in C:\Users\Richard\Documents\GitRepos\Mono_Shocko\ShellshockSkirmish\ShellshockSkirmish\Program.cs:line 17
+   at System.AppDomain._nExecuteAssembly(RuntimeAssembly assembly, String[] args)
+   at System.AppDomain.ExecuteAssembly(String assemblyFile, Evidence assemblySecurity, String[] args)
+   at Microsoft.VisualStudio.HostingProcess.HostProc.RunUsersAssembly()
+   at System.Threading.ThreadHelper.ThreadStart_Context(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.ThreadHelper.ThreadStart()</StackTrace>
+</UnhandledError>
